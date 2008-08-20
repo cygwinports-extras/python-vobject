@@ -1,0 +1,6 @@
+ORIG_PN="vobject"
+inherit distutils
+
+DESCRIPTION="Python vCard/vCalendar parser module"
+HOMEPAGE="http://vobject.skyhouseconsulting.com/"
+SRC_URI="http://vobject.skyhouseconsulting.com/${ORIG_PN}-${PV}.tar.gz"

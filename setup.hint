@@ -1,0 +1,8 @@
+category: Python
+requires: python python-dateutil
+sdesc: "Python vCard/vCalendar parser library"
+ldesc: "vobject is intended to be a full featured Python package for 
+parsing and generating vCard and vCalendar files. Currently, iCalendar 
+files are supported and well tested. vCard 3.0 files are supported, and 
+all data should be imported, but only a few components are understood in 
+a sophisticated way."
