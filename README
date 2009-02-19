@@ -7,12 +7,12 @@ should be imported, but only a few components are understood in a
 sophisticated way.
 
 Runtime requirements:
-  python-2.5.2-2
+  python-2.5.4-1
   python-dateutil-1.4-1
 
 Build requirements:
-  cygport-0.3.13-1
-  python-2.5.2-2
+  cygport-0.4.3-1
+  python-2.5.4-1
 
 Canonical website:
   http://vobject.skyhouseconsulting.com/
@@ -23,15 +23,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack python-vobject-0.7.1-X-src.tar.bz2
+  unpack python-vobject-0.8.1b-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./python-vobject-0.7.1-X.cygport all
+  cygport ./python-vobject-0.8.1b-X.cygport all
 
 This will create:
-  /usr/src/python-vobject-0.7.1-X-src.tar.bz2
-  /usr/src/python-vobject-0.7.1-X.tar.bz2
+  /usr/src/python-vobject-0.8.1b-X-src.tar.bz2
+  /usr/src/python-vobject-0.8.1b-X.tar.bz2
 
 -------------------------------------------
 
@@ -39,13 +39,13 @@ Files included in the binary package:
 
   /usr/bin/change_tz
   /usr/bin/ics_diff
-  /usr/lib/python2.5/site-packages/vobject-0.7.1-py2.5.egg-info/PKG-INFO
-  /usr/lib/python2.5/site-packages/vobject-0.7.1-py2.5.egg-info/SOURCES.txt
-  /usr/lib/python2.5/site-packages/vobject-0.7.1-py2.5.egg-info/dependency_links.txt
-  /usr/lib/python2.5/site-packages/vobject-0.7.1-py2.5.egg-info/entry_points.txt
-  /usr/lib/python2.5/site-packages/vobject-0.7.1-py2.5.egg-info/requires.txt
-  /usr/lib/python2.5/site-packages/vobject-0.7.1-py2.5.egg-info/top_level.txt
-  /usr/lib/python2.5/site-packages/vobject-0.7.1-py2.5.egg-info/zip-safe
+  /usr/lib/python2.5/site-packages/vobject-0.8.1b-py2.5.egg-info/PKG-INFO
+  /usr/lib/python2.5/site-packages/vobject-0.8.1b-py2.5.egg-info/SOURCES.txt
+  /usr/lib/python2.5/site-packages/vobject-0.8.1b-py2.5.egg-info/dependency_links.txt
+  /usr/lib/python2.5/site-packages/vobject-0.8.1b-py2.5.egg-info/entry_points.txt
+  /usr/lib/python2.5/site-packages/vobject-0.8.1b-py2.5.egg-info/requires.txt
+  /usr/lib/python2.5/site-packages/vobject-0.8.1b-py2.5.egg-info/top_level.txt
+  /usr/lib/python2.5/site-packages/vobject-0.8.1b-py2.5.egg-info/zip-safe
   /usr/lib/python2.5/site-packages/vobject/__init__.py
   /usr/lib/python2.5/site-packages/vobject/__init__.pyc
   /usr/lib/python2.5/site-packages/vobject/__init__.pyo
@@ -73,12 +73,14 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/vobject/win32tz.py
   /usr/lib/python2.5/site-packages/vobject/win32tz.pyc
   /usr/lib/python2.5/site-packages/vobject/win32tz.pyo
-  /usr/share/doc/python-vobject-0.7.1/LICENSE.txt
-  /usr/share/doc/python-vobject-0.7.1/README.txt
+  /usr/share/doc/python-vobject-0.8.1b/README.txt
 
 ------------------
 
 Port Notes:
+
+----- version 0.8.1b-1 -----
+Version bump.
 
 ----- version 0.7.1-1 -----
 Initial release for Cygwin.
